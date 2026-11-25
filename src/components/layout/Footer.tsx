@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, Github, Twitter, Linkedin } from 'lucide-react';
+import { Layers, Globe, Share2, MessageCircle } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -53,9 +53,9 @@ export const Footer: React.FC = () => {
             © {new Date().getFullYear()} WLC Billing Inc. Todos os direitos reservados.
           </p>
           <div className="flex space-x-4 mt-4 sm:mt-0">
-            <a href="#" className="text-slate-400 hover:text-white"><Twitter className="w-5 h-5" /></a>
-            <a href="#" className="text-slate-400 hover:text-white"><Linkedin className="w-5 h-5" /></a>
-            <a href="#" className="text-slate-400 hover:text-white"><Github className="w-5 h-5" /></a>
+            <a href="#" className="text-slate-400 hover:text-white"><Share2 className="w-5 h-5" /></a>
+            <a href="#" className="text-slate-400 hover:text-white"><MessageCircle className="w-5 h-5" /></a>
+            <a href="#" className="text-slate-400 hover:text-white"><Globe className="w-5 h-5" /></a>
           </div>
         </div>
       </div>
